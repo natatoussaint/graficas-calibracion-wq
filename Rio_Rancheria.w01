@@ -1,0 +1,2080 @@
+WQ   Title=Calidad_CAL
+Program Version=6.20
+Model Temperature=0
+Model Nutrients=0
+Model TDG=0
+Model Arbitrary=0
+Constituent= GConstituent[1]
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=76.81
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=850.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=850.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=411.6
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=343.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=850.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=646.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=398.6
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1704.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=114.2
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1991.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1620.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=2205.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=850.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=582.7
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=874.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=554.9
+Constant Units=1
+End Time Series Data
+Constituent= GConstituent[2]
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=600.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=600.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=600.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=37.4
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=19.49
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=600.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=25.0
+Constant Units=1
+End Time Series Data
+Constituent= GConstituent[3]
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.03
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.15
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.15
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.15
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.15
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+Constituent= GConstituent[4]
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.482
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.307
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.972
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=6.77
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.66
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.084
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.397
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.362
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.752
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.216
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.603
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.55
+Constant Units=1
+End Time Series Data
+Constituent= GConstituent[5]
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.1
+Constant Units=1
+End Time Series Data
+Constituent= GConstituent[6]
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.05
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.05
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.05
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.05
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.001
+Constant Units=1
+End Time Series Data
+Constituent= NH4
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=35.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=35.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=35.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.01
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.74
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=35.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.01
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.0
+Constant Units=1
+End Time Series Data
+Constituent= NO3
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.271
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.084
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.364
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.822
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.572
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.599
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.355
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.244
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.111
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.509
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=1.21
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.358
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.126
+Constant Units=1
+End Time Series Data
+Constituent= OrgN
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 1 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+End Time Series Data
+Constituent= TIP
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.071
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=10.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=10.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.123
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.104
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=10.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.05
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.114
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.05
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.07
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.05
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.05
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.05
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=10.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.079
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.086
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.05
+Constant Units=1
+End Time Series Data
+Constituent= OrgP
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0926
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=3.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=3.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.323
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.183
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=3.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.108
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.186
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0957
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0988
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.07
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.264
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.105
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=3.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.332
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.177
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.155
+Constant Units=1
+End Time Series Data
+Constituent= DO
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=7.435
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=7.128
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=8.494
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=7.058
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=8.359
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=7.669
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=8.111
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=7.006
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=6.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=5.42
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=6.793
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=7.255
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=6.961
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=7.693
+Constant Units=1
+End Time Series Data
+Constituent= Alk
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=40.7
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=300.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=300.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=197.3
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=202.96
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=300.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=46.4
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=211.9
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=30.3
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=58.9
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=86.7
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=169.3
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=95.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=300.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=229.7
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=239.1
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=240.1
+Constant Units=1
+End Time Series Data
+Constituent= CBOD[1]
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=2.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=250.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=250.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=2.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=2.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=250.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=2.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=2.27
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=2.87
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=4.63
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=2.08
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=9.16
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=7.22
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=250.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=3.43
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=2.82
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=3.9
+Constant Units=1
+End Time Series Data
+Constituent= Suspended Solid[1]
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=41.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=250.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=250.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=180.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=69.6
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=250.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=49.7
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=93.5
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=22.8
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=27.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=23.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=0.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=17.3
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=24.3
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=250.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=323.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=48.29
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=14.3
+Constant Units=1
+End Time Series Data
+Constituent= Water Temperature
+BC=RioRancheria,TramoPrincipal,655016,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=24.8
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,652887,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=27.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,610236,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=27.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,603675,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=26.9
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,600394,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=26.7
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,561024,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=27.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,547900,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=30.87
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,534777,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=29.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,533265,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=27.08
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,498688,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=31.7
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,472441,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=29.8
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,459318,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=29.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,439633,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=29.8
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,433071,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=30.17
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,426509,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=27.0
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,425296,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=27.6
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,419948,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=30.9
+Constant Units=1
+End Time Series Data
+BC=RioRancheria,TramoPrincipal,390420,,,,,,,
+BC Time Series
+Time Series Mode= 4 
+Observed Data=0
+Constant Value=32.5
+Constant Units=1
+End Time Series Data
+IC Use Restart= 0
+Restart Filename= 
+Compute Dispersion=0
+Dispersion Factor=1
+Use Shading=0
+Min Cell Length= 300
+Met Assignment=0
+NSM algae growth formulation=  0 
+NSM algae light limitation=  0 
+NSM algae growth formulationB=  0 
+NSM algae light limitationB=  0 
+NSM alpha0    = 10
+NSM alpha1    = 0.07
+NSM alpha2    = 0.01
+NSM alpha3    = 1.4
+NSM alpha4    = 1.6
+NSM alpha5    = 3
+NSM alpha6    = 1
+NSM mu_max    = 1
+NSM rho       = 0.05
+NSM KL        = 4
+NSM KP        = 0.001
+NSM KN        = 0.01
+NSM lambda0   = 0.03
+NSM lambda1   = 0.007
+NSM lambda2   = 0.05
+NSM PN        = 1
+NSM sigma1    = 0.1
+NSM sigma2    = 0
+NSM sigma3    = 0
+NSM sigma4    = 0.001
+NSM sigma5    = 0.001
+NSM K1        = 0.02
+NSM K2        = 1
+NSM K3        = 0
+NSM K4        = 0
+NSM beta1     = 0.1
+NSM beta2     = 0.2
+NSM beta3     = 0.02
+NSM beta4     = 0.01
+NSM mu max tc = 1.047
+NSM sigma1 tc = 1.024
+NSM sigma2 tc = 1.074
+NSM sigma3 tc = 1.074
+NSM sigma4 tc = 1.024
+NSM sigma5 tc = 1.024
+NSM K1 tc     = 1.047
+NSM K2 tc     = 1.024
+NSM K3 tc     = 1.024
+NSM K4 tc     = 1.06
+NSM beta1 tc  = 1.083
+NSM beta2 tc  = 1.047
+NSM beta3 tc  = 1.047
+NSM beta4 tc  = 1.047
+NSM KNR       = 0.6
+Use Bethic Algae = 0
+NSM mu maxb= 0.3
+NSM mu maxb tc= 1.047
+NSM k Deathb= 0
+NSM k Deathb tc= 1.047
+NSM KLb= 6276
+NSM KNb= 0.01
+NSM KPb= 0.001
+NSM KSb= 10
+NSM Alpha0b= 5
+NSM Alpha1b= 0.07
+NSM Alpha2b= 0.01
+NSM Alpha3b= 1.4
+NSM Alpha4b= 1.6
+NSM Respirationb= 0.01
+NSM Respirationb tc= 1.047
+NSM PNH4b= 0
+NSM Benthic Fraction Bottom Area= 0
+NSM Benthic Light Attenuation Method= 0
+TDG kah= 1
+TDG kah_tc= 1
+TDG kah Method= 1
+TDG kaw= 10
+TDG kaw_tc= 1
+TDG kaw Method= 1
+TDG SOD= 0.2
+TDG SOD_tc= 1
+TDG KsSod= 1

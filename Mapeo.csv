@@ -1,0 +1,16 @@
+Nombre,Nombre HEC RAS,Unidades
+Conductividad,Gconstituent [1],µS/cm
+Demanda Química de Oxígeno,Gconstituent [2],mg/L
+Cobre,Gconstituent [3],mg/L
+Hierro,Gconstituent [4],mg/L
+Niquel,Gconstituent [5],mg/L
+Plomo,Gconstituent [6],mg/L
+Nitrógeno Amoniacal,NH4,mg/L
+Nitratos,NO3,mg/L
+Ortofosfatos,TIP,mg/L
+Fósforo Total,OrgP,mg/L
+Oxígeno Disuelto,DO,mg/L
+Alcalinidad,Alk,mg CaCO3/L
+Demanda Biológica de Oxígeno,CBOD[1],mg/L
+Sólidos Suspendidos Totales,Suspended Solid[1],mg/L
+Temperatura del Agua,Water Temperature,°C
