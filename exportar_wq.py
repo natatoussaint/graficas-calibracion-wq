@@ -1,18 +1,27 @@
 import os
 import re
+from pathlib import Path
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, r2_score
 
 # --- 1. Configuración de rutas ---
-base_dir     = os.path.dirname(os.path.abspath(__file__))
-results_file = os.path.join(base_dir, 'Results.csv')
-obs_file     = os.path.join(base_dir, 'OB.csv')
-map_file     = os.path.join(base_dir, 'Mapeo.csv')
-vert_file    = os.path.join(base_dir, 'Vertimientos.csv')
-out_dir      = os.path.join(base_dir, 'output')
-os.makedirs(out_dir, exist_ok=True)
+if '__file__' in globals():
+    base_dir = Path(__file__).resolve().parent
+else:
+    # Para entornos interactivos como Jupyter
+    base_dir = Path.cwd()
+
+results_file = base_dir / 'Results.csv'
+obs_file     = base_dir / 'OB.csv'
+map_file     = base_dir / 'Mapeo.csv'
+vert_file    = base_dir / 'Vertimientos.csv'
+out_dir      = base_dir / 'output'
+out_dir.mkdir(exist_ok=True)
+
+print(f"Leyendo datos desde: {base_dir}")
 
 # --- 2. Función para limpiar claves ---
 def clean(name: str) -> str:
@@ -105,7 +114,7 @@ for _, row in df_map.iterrows():
     ax.set_title(display_name)
     ax.legend()
     fig.tight_layout()
-    fig.savefig(os.path.join(out_dir, f"graf_{key}.png"), dpi=300)
+    fig.savefig(out_dir / f"graf_{key}.png", dpi=300)
     plt.close(fig)
 
 # --- 13. Exportar tabla de métricas con resaltado condicional ---
@@ -123,7 +132,7 @@ for i, r in df_met.iterrows():
     if r['R²'] < 0.8:
         tbl[i+1,3].set_facecolor('lightcoral')
 fig.tight_layout()
-fig.savefig(os.path.join(out_dir,'metrics_table.png'), dpi=300)
+fig.savefig(out_dir / 'metrics_table.png', dpi=300)
 plt.close(fig)
 
 print(f"✅ ¡Proceso completo! Revisa '{out_dir}' para tus gráficos y tabla.")
