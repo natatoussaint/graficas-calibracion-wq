@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.font_manager as fm
+import matplotlib.transforms as mtransforms
 
 # --- 1. Rutas y carga de archivos ---
 base_dir = Path(__file__).resolve().parent if '__file__' in globals() else Path.cwd()
@@ -53,6 +54,8 @@ obs_cols = {clean_key(c): c for c in df_obs.columns}
 # --- 8. Cargar fuente si existe ---
 font_path = base_dir / "nunito-sans.extrabold.ttf"
 font_prop = fm.FontProperties(fname=str(font_path)) if font_path.exists() else fm.FontProperties(weight='bold')
+TITLE_SIZE = 15
+LABEL_SIZE = 11
 
 # --- 9. Graficar y calcular métricas ---
 metrics = []
@@ -96,20 +99,31 @@ for _, row in df_map.iterrows():
                label='Observado', s=60, zorder=3)
 
     # Vertimientos sin superposición
+    label_pos = {}
+    y_text = df_sim[sim_col].max() * 0.95
     for _, v in df_vert.dropna(subset=['Distance']).iterrows():
         x = v['Distance']
         ax.axvline(x, color='red', linestyle='--', lw=1)
-        ax.text(x, df_sim[sim_col].max() * 0.95,
-                v['vert_name'], rotation=90,
+
+        # Evitar superposición de etiquetas usando pequeños desplazamientos
+        offset_count = 0
+        for xp in label_pos:
+            if abs(x - xp) < 10:  # distancia umbral en unidades de abscisa
+                offset_count = max(offset_count, label_pos[xp] + 1)
+        label_pos[x] = offset_count
+        trans = mtransforms.ScaledTranslation(offset_count * 5 / 72, 0, fig.dpi_scale_trans)
+
+        ax.text(x, y_text, v['vert_name'], rotation=90,
                 color='red', fontsize=9,
                 ha='right', va='top',
+                transform=ax.transData + trans,
                 fontproperties=font_prop)
 
     ax.plot([], [], linestyle='--', color='red', label='Vertimientos')
     ax.set_xlim(left=0)
-    ax.set_title(display_name, fontsize=13, fontproperties=font_prop)
-    ax.set_xlabel('Abscisa (m)', fontsize=11, fontproperties=font_prop)
-    ax.set_ylabel(f'{display_name} [{unit}]', fontsize=11, fontproperties=font_prop)
+    ax.set_title(display_name, fontsize=TITLE_SIZE, fontproperties=font_prop)
+    ax.set_xlabel('Abscisa (m)', fontsize=LABEL_SIZE, fontproperties=font_prop)
+    ax.set_ylabel(f'{display_name} [{unit}]', fontsize=LABEL_SIZE, fontproperties=font_prop)
     ax.legend(prop=font_prop)
     ax.grid(True, linestyle=':', alpha=0.5)
     fig.tight_layout()
@@ -123,10 +137,21 @@ for _, row in df_map.iterrows():
 # --- 10. Exportar tabla de métricas ---
 if metrics:
     df_m = pd.DataFrame(metrics, columns=['Parámetro', 'RMSE', 'RMSCV (%)', 'R²'])
+    df_m[['RMSE', 'RMSCV (%)', 'R²']] = df_m[['RMSE', 'RMSCV (%)', 'R²']].astype(float)
+    df_m = df_m.round(2)
+
+    colors = []
+    for _, row in df_m.iterrows():
+        row_colors = ['white'] * len(df_m.columns)
+        if row['RMSCV (%)'] > 30:
+            idx = df_m.columns.get_loc('RMSCV (%)')
+            row_colors[idx] = 'lightcoral'
+        colors.append(row_colors)
+
     fig, ax = plt.subplots(figsize=(10, 0.5 + len(df_m) * 0.35))
     ax.axis('off')
     tabla = ax.table(cellText=df_m.values, colLabels=df_m.columns,
-                     cellLoc='center', loc='center')
+                     cellColours=colors, cellLoc='center', loc='center')
     tabla.auto_set_font_size(False)
     tabla.set_fontsize(10)
     fig.tight_layout()
