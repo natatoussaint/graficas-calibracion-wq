@@ -1,4 +1,4 @@
-ID,XS,Gconstituent [1],Gconstituent [2],Gconstituent [3],Gconstituent [4],Gconstituent [5],Gconstituent [6],NH4,NO3,TIP,OrgP,DO,Alk,CBOD[1],Suspended Solid[1],Water Temperature
+ID,XS,GConstituent[1] (),GConstituent[2] (),GConstituent[3] (),GConstituent[4] (),GConstituent[5] (),GConstituent[6] (),NH4 (),NO3 (),TIP (),OrgP (),DO (),Alk (),CBOD[1] (),Suspended Solid[1] (),Water Temperature ()
 RIO 119,632513,135.9,25,0.03,0.821,0.1,0.001,1,0.277,0.095,0.0988,7.681,71.9,2.56,32,26.3
 RIO 112,571715,288.9,25,0.03,0.809,0.1,0.001,1,0.376,0.147,0.223,7.778,121.1,2.76,125,29.8
 RIO 113,562735,301.4,25,0.03,0.685,0.1,0.001,1,0.765,0.159,0.226,6.437,114.8,2.36,120,28
