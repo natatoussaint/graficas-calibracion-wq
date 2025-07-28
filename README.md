@@ -5,6 +5,7 @@ El script buscará `Results.csv`, `OB.csv`, `Mapeo.csv` y `Vertimientos.csv`
 y generará gráficos y métricas en la carpeta `output`.
 
 Los títulos y etiquetas usan la fuente **Nunito Sans** incluida en el repositorio.
+Las gráficas inician en 0 en el eje Y para facilitar la comparación entre resultados.
 Puedes cambiar el tamaño modificando las variables `TITLE_SIZE` y `LABEL_SIZE` en
 `exportar_wq.py`.
 

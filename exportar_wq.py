@@ -111,8 +111,8 @@ for _, row in df_map.iterrows():
 
     # Reservar espacio extra arriba para las etiquetas
     ymax = df_sim[sim_col].max()
-    ymin = df_sim[sim_col].min()
-    ax.set_ylim(bottom=ymin, top=ymax * 1.2)
+    # Iniciar el eje Y en cero para todas las gráficas
+    ax.set_ylim(bottom=0, top=ymax * 1.2)
 
     # Posición inicial de los textos
     y0 = ymax * 1.05
