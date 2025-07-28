@@ -38,6 +38,15 @@ dist_ref = df_sim[['RS', 'Distance']].drop_duplicates()
 df_obs  = df_obs.merge(dist_ref, on='RS', how='left')
 df_vert = df_vert.merge(dist_ref, on='RS', how='left')
 
+# Distancias faltantes por interpolación
+if df_obs['Distance'].isna().any() or df_vert['Distance'].isna().any():
+    rs_sim   = df_sim['RS']
+    dist_sim = df_sim['Distance']
+    for df in (df_obs, df_vert):
+        mask = df['Distance'].isna() & df['RS'].notna()
+        if mask.any():
+            df.loc[mask, 'Distance'] = np.interp(df.loc[mask, 'RS'], rs_sim, dist_sim)
+
 # --- 6. Funciones de limpieza y normalización de nombres ---
 def clean_key(s):
     return re.sub(r'\W+', '', str(s)).lower().strip()
@@ -128,10 +137,10 @@ for _, row in df_map.iterrows():
     adjust_text(
         texts,
         only_move={'text': 'y'},
-        add_objects=[],             # ignora líneas y puntos en el ajuste
-        expand_text=(2.0, 2.0),      # más separación entre textos
-        force_text=0.8,             # fuerza para separar textos
-        lim=100                     # límite de iteraciones
+        add_objects=[],
+        expand_text=(1.5, 1.5),
+        force_text=0.5,
+        lim=200
     )
 
     # Leyenda y estilo
